@@ -59,3 +59,6 @@ public class PanelJuegos extends javax.swing.JPanel {
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
+
+
+/*New beautiful comment to test on branches <3<3<3*/
