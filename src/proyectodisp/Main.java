@@ -16,19 +16,19 @@ import javax.swing.JTabbedPane;
 public class Main extends javax.swing.JFrame {
     GridBagLayout dinamico = new GridBagLayout();
     PanelJuegos panelJuegos;
-    PanelStreams panelStreams;
+    PanelInfo panelStreams;
     PanelLogin panelLogin;
-    PanelForos panelForos;
+    PanelNoticias panelForos;
     PanelRegister panelRegister;
     PanelMain panelMain;
     Color colormain = new Color(255, 204, 255);
     public Main() {
         initComponents();
         panelJuegos= new PanelJuegos();
-        panelForos = new PanelForos();
+        panelForos = new PanelNoticias();
         panelRegister = new PanelRegister();
         panelLogin = new PanelLogin();
-        panelStreams = new PanelStreams();
+        panelStreams = new PanelInfo();
         panelMain = new PanelMain();
         jPanelDin.setLayout(dinamico);
         GridBagConstraints c = new GridBagConstraints();
@@ -154,7 +154,7 @@ public class Main extends javax.swing.JFrame {
 
         jLabelStreams.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabelStreams.setForeground(new java.awt.Color(0, 0, 0));
-        jLabelStreams.setText("Streams");
+        jLabelStreams.setText("Info");
         jLabelStreams.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabelStreamsMouseClicked(evt);
@@ -169,7 +169,7 @@ public class Main extends javax.swing.JFrame {
 
         jLabelForos.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabelForos.setForeground(new java.awt.Color(0, 0, 0));
-        jLabelForos.setText("Foros");
+        jLabelForos.setText("Noticias");
         jLabelForos.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabelForosMouseClicked(evt);
@@ -230,11 +230,11 @@ public class Main extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(21, Short.MAX_VALUE)
+                .addContainerGap(37, Short.MAX_VALUE)
                 .addComponent(jLabelMain)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 6, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(25, 25, 25)
                 .addComponent(JLabelJuegos)
                 .addGap(18, 18, 18)
                 .addComponent(jLabelStreams)
@@ -244,9 +244,9 @@ public class Main extends javax.swing.JFrame {
                 .addComponent(jTexBbuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabelLogin)
-                .addGap(26, 26, 26)
+                .addGap(27, 27, 27)
                 .addComponent(jLabelRegister)
-                .addGap(44, 44, 44))
+                .addGap(30, 30, 30))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

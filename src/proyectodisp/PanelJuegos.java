@@ -143,7 +143,7 @@ public class PanelJuegos extends javax.swing.JPanel {
                                         .addComponent(imgMario64, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(imgMarioKartDeluxe, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                     .addComponent(imgSBSPBBP))
-                                .addGap(48, 48, 48)
+                                .addGap(52, 52, 52)
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(imgMinecraftJava)
                                     .addComponent(imgPortal)

@@ -9,12 +9,12 @@ package proyectodisp;
  *
  * @author Usuario
  */
-public class PanelForos extends javax.swing.JPanel {
+public class PanelInfo extends javax.swing.JPanel {
 
     /**
-     * Creates new form PanelForos
+     * Creates new form Panel2
      */
-    public PanelForos() {
+    public PanelInfo() {
         initComponents();
     }
 
@@ -29,7 +29,7 @@ public class PanelForos extends javax.swing.JPanel {
 
         jPanel1 = new javax.swing.JPanel();
 
-        jPanel1.setBackground(new java.awt.Color(153, 0, 153));
+        jPanel1.setBackground(new java.awt.Color(255, 102, 102));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
