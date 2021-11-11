@@ -87,6 +87,7 @@ public class Main extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 0, 0));
         setBounds(new java.awt.Rectangle(130, 100, 1280, 720));
+        setResizable(false);
 
         jPanel3.setBackground(new java.awt.Color(0, 0, 0));
         jPanel3.setForeground(new java.awt.Color(0, 0, 0));
