@@ -61,7 +61,12 @@ public class PanelJuegosgrid extends javax.swing.JPanel {
             }
         });
 
-        jPanel4.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel4.setBackground(new java.awt.Color(40, 40, 40));
+        jPanel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel4MouseClicked(evt);
+            }
+        });
 
         jPanel6.setBackground(new java.awt.Color(51, 51, 51));
 
@@ -165,6 +170,10 @@ public class PanelJuegosgrid extends javax.swing.JPanel {
     private void jPanel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel5MouseClicked
         // TODO add your handling code here:
     }//GEN-LAST:event_jPanel5MouseClicked
+
+    private void jPanel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel4MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPanel4MouseClicked
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
