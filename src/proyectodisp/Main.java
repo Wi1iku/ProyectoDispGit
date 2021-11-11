@@ -22,7 +22,7 @@ import javax.swing.JTabbedPane;
  */
 public class Main extends javax.swing.JFrame {
     GridBagLayout dinamico = new GridBagLayout();
-    PanelJuegos panelJuegos;
+    PanelJuegosgrid panelJuegos;
     PanelInfo panelStreams;
     PanelLogin panelLogin;
     PanelNoticias panelForos;
@@ -31,7 +31,7 @@ public class Main extends javax.swing.JFrame {
     Color colormain = new Color(255, 204, 255);
     public Main() {
         initComponents();
-        panelJuegos= new PanelJuegos();
+        panelJuegos= new PanelJuegosgrid();
         panelForos = new PanelNoticias();
         panelRegister = new PanelRegister();
         panelLogin = new PanelLogin();
@@ -242,6 +242,9 @@ public class Main extends javax.swing.JFrame {
             }
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jLabel1MousePressed(evt);
+            }
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jLabel1MouseReleased(evt);
             }
         });
 
@@ -471,7 +474,9 @@ public class Main extends javax.swing.JFrame {
 
     private void jLabel1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MousePressed
         
-        try{jLabel1.setIcon(new ImageIcon("proyectodisp/imageicos/botonmainfase2"));
+        try{
+           ImageIcon imgfase2= new ImageIcon(getClass().getResource("/proyectodisp/imageicos/botonmainfase2.png"));
+            jLabel1.setIcon(imgfase2);
         }
         catch(Exception e){ 
             System.out.println("Error en imagen ico");
@@ -480,6 +485,17 @@ public class Main extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_jLabel1MousePressed
+
+    private void jLabel1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseReleased
+       
+        try{
+           ImageIcon imgfase2= new ImageIcon(getClass().getResource("/proyectodisp/imageicos/botonmainfase1.png"));
+            jLabel1.setIcon(imgfase2);
+        }
+        catch(Exception e){ 
+            System.out.println("Error en imagen ico");
+        }
+    }//GEN-LAST:event_jLabel1MouseReleased
 
     /**
      * @param args the command line arguments
