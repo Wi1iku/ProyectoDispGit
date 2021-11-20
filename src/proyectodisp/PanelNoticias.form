@@ -121,7 +121,7 @@
                           <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="42" max="32767" attributes="0"/>
                           <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -315,7 +315,7 @@
                           <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="42" max="32767" attributes="0"/>
                           <Component id="jPanel12" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -469,12 +469,17 @@
                               <Component id="jLabel29" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel32" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel31" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jLabel28" alignment="1" max="32767" attributes="0"/>
-                              <Component id="jLabel33" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel27" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel30" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel34" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel35" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel33" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -495,9 +500,9 @@
                           <Component id="jLabel33" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
                           <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
@@ -580,7 +585,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="de Derek Yu en la que hab&#xed;a conseguido llegar al final en dos minutos y medio, algo que impact&#xf3; en su momento y que desde entonces no ha sido superado; en parte porque la comunidad pas&#xf3; a jugar a la versi&#xf3;n HD del juego "/>
+                    <Property name="text" type="java.lang.String" value=" roguelike de Derek Yu en la que hab&#xed;a conseguido llegar al final en dos minutos y medio, algo que impact&#xf3; en su momento y que desde entonces no ha sido superado; en parte porque la comunidad pas&#xf3; a jugar "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel29">
@@ -588,7 +593,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="pero sobre todo por la dificultad de conseguir esa marca en un t&#xed;tulo con escenarios generados procedimentalmente. "/>
+                    <Property name="text" type="java.lang.String" value="a la versi&#xf3;n HD del juego pero sobre todo por la dificultad de conseguir esa marca en un t&#xed;tulo con escenarios generados procedimentalmente. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel30">
@@ -620,7 +625,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="La comunidad de speedrunners de Spelunky llevaba ocho a&#xf1;os sorprendida por un r&#xe9;cord que el usuario BarryMode hab&#xed;a publicado en su canal de YouTube: se trata de una partida de la versi&#xf3;n cl&#xe1;sica del plataformas roguelike "/>
+                    <Property name="text" type="java.lang.String" value="La comunidad de speedrunners de Spelunky llevaba ocho a&#xf1;os sorprendida por un r&#xe9;cord que el usuario BarryMode hab&#xed;a publicado en su canal de YouTube: se trata de una partida de la versi&#xf3;n cl&#xe1;sica del plataformas"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel34">
@@ -675,7 +680,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="396" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="383" max="-2" attributes="0"/>
                           <Component id="jLabel36" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
@@ -705,7 +710,7 @@
                           <Component id="jLabel45" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel18" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -768,7 +773,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Disney lleva en el mundo de los videojuegos desde hace m&#xe1;s de treinta a&#xf1;os, concretamente comenz&#xf3; en 1981 con un juego de Mickey Mouse para Game &amp; Watch, y ha trabajado con grandes compa&#xf1;&#xed;as de la industria como: "/>
+                    <Property name="text" type="java.lang.String" value="Disney lleva en el mundo de los videojuegos desde hace m&#xe1;s de treinta a&#xf1;os, concretamente comenz&#xf3; en 1981 con un juego de Mickey Mouse para Game &amp; Watch, y ha trabajado con grandes compa&#xf1;&#xed;as de la industria"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel38">
@@ -792,7 +797,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Capcom, Sega, Nintendo o Rare entre muchas otras. Adem&#xe1;s, durante dos d&#xe9;cadas existi&#xf3; Disney Interactive, una rama de la empresa que entre muchas cosas se ocup&#xf3; de Disney Infinity. "/>
+                    <Property name="text" type="java.lang.String" value="como:  Capcom, Sega, Nintendo o Rare entre muchas otras. Adem&#xe1;s, durante dos d&#xe9;cadas existi&#xf3; Disney Interactive, una rama de la empresa que entre muchas cosas se ocup&#xf3; de Disney Infinity. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel41">
@@ -824,7 +829,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="declar&#xf3; a Forbes que tienen muy en mente al deporte electr&#xf3;nico."/>
+                    <Property name="text" type="java.lang.String" value="en Disney World  declar&#xf3; a Forbes que tienen muy en mente al deporte electr&#xf3;nico."/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel45">
@@ -832,7 +837,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="unas instalaciones de 89 hect&#xe1;reas que reciben cada a&#xf1;o una gran cantidad de competiciones deportivas. Los esports hasta ahora han estado fuera del mundo Disney, pero Faron Kelly, vicepresidente de deportes en Disney World "/>
+                    <Property name="text" type="java.lang.String" value="unas instalaciones de 89 hect&#xe1;reas que reciben cada a&#xf1;o una gran cantidad de competiciones deportivas. Los esports hasta ahora han estado fuera del mundo Disney, pero Faron Kelly, vicepresidente de deportes "/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -852,7 +857,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jPanel22" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="37" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                       <Component id="jPanel21" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
@@ -871,7 +876,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="173" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="153" max="-2" attributes="0"/>
                           <Component id="jLabel46" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
@@ -901,7 +906,7 @@
                           <Component id="jLabel55" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel54" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel21" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -1048,7 +1053,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jPanel25" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="37" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                       <Component id="jPanel24" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
@@ -1067,7 +1072,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
                           <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
@@ -1097,7 +1102,7 @@
                           <Component id="jLabel65" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel64" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel24" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -1246,11 +1251,6 @@
                           <Component id="jPanel28" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                          <Component id="jLabel66" min="-2" pref="911" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
                       <Component id="jPanel27" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
@@ -1267,6 +1267,11 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="154" max="-2" attributes="0"/>
+                          <Component id="jLabel66" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
@@ -1276,7 +1281,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel66" min="-2" pref="35" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel73" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel73" min="-2" pref="16" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
                           <Component id="jLabel68" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
@@ -1293,7 +1298,7 @@
                           <Component id="jLabel75" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel74" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel27" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -1348,7 +1353,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar"/>
+                    <Property name="text" type="java.lang.String" value="Jugador completa The Legend of Zelda: Majora&#x2019;s Mask al 100% en tiempo r&#xe9;cord"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel67">
@@ -1356,7 +1361,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Tal fue el caso del streamer y speedrunner Bewildebeest, quien recientemente logr&#xf3; completar el videojuego de Nintendo 64 al 100% y, m&#xe1;s importante a&#xfa;n, en un impresionante tiempo r&#xe9;cord. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel68">
@@ -1364,7 +1369,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="el hogar de muchos speedruners que, a&#xf1;o tras a&#xf1;o, intentan trazar nuevos r&#xe9;cords mundiales y hacer historia. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel69">
@@ -1372,7 +1377,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel70">
@@ -1380,7 +1385,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel71">
@@ -1388,7 +1393,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="En espec&#xed;fico, el speedrunner logr&#xf3; completar The Legend of Zelda: Majora&#x2019;s Mask en tan solo 5 horas, 49 minutos y 51 segundos. Este tiempo le permiti&#xf3; superar el r&#xe9;cord anterior que le pertenec&#xed;a al jugador TrevPerson "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel72">
@@ -1396,7 +1401,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=", quien consigui&#xf3; la misma haza&#xf1;a en 5 horas, 50 minutos y 27 segundos. Como podemos observar, la diferencia entre ambas cifras es de apenas 2 minutos. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel73">
@@ -1404,7 +1409,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Pese a que debut&#xf3; hace m&#xe1;s de 20 a&#xf1;os, The Legend of Zelda: Majora&#x2019;s Mask a&#xfa;n permanece como una de las entregas de la franquicia m&#xe1;s populares y queridas por la comunidad. Por supuesto, este t&#xed;tulo es"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel74">
@@ -1412,7 +1417,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="completar 100% de la aventura, lo que incluye los objetivos principales de la campa&#xf1;a y los coleccionables. En promedio, un jugador com&#xfa;n tardar&#xed;a alrededor de 32 horas en conseguir todo lo anterior."/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel75">
@@ -1420,7 +1425,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Es importante se&#xf1;alar que este speedrun se realiz&#xf3; sin utilizar ning&#xfa;n tipo de glitch o trampa que permitieran omitir contenido o conseguir &#xed;tems m&#xe1;s f&#xe1;cilmente. As&#xed; pues, el actual poseedor del r&#xe9;cord mundial logr&#xf3; "/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -1438,17 +1443,12 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel30" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jPanel31" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                          <Component id="jLabel76" min="-2" pref="911" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
-                      <Component id="jPanel30" alignment="0" max="32767" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel79" alignment="0" max="32767" attributes="0"/>
@@ -1460,6 +1460,10 @@
                               <Component id="jLabel80" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel84" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel85" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel76" min="-2" pref="1262" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -1489,7 +1493,7 @@
                           <Component id="jLabel85" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel84" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel30" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -1544,7 +1548,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar"/>
+                    <Property name="text" type="java.lang.String" value="Netflix irrumpe en el mundo de los videojuegos con un modelo de negocio que puede cambiar la industria"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel77">
@@ -1552,7 +1556,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel78">
@@ -1560,7 +1564,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="de la casa como anta&#xf1;o, sino que hasta los m&#xe1;s mayores han probado alguna vez las mieles de esta tecnolog&#xed;a. Este es el motivo de que, en 2020, los ingresos de la industria superasen a los de otros grandes sectores "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel79">
@@ -1568,7 +1572,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="como el cine, alcanzando los 179.700 millones de d&#xf3;lares, seg&#xfa;n MarketWatch. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel80">
@@ -1576,7 +1580,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Estas cifras han provocado la entrada en el mercado de gigantes tecnol&#xf3;gicos como Amazon, Alphabet o Apple. Sin embargo, Netflix ha llegado para cambiar las reglas del juego. La multinacional del streaming acaba "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel81">
@@ -1584,7 +1588,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="de lanzar sus primeros cinco videojuegos para Android. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel82">
@@ -1592,7 +1596,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel83">
@@ -1600,7 +1604,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="La industria del videojuego no deja de ganar adeptos. Se trata de uno de los mercados de m&#xe1;s r&#xe1;pido crecimiento y de mayor proyecci&#xf3;n. Hoy en d&#xed;a, este sector no se reserva &#xfa;nica y exclusivamente a los m&#xe1;s peque&#xf1;os "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel84">
@@ -1608,7 +1612,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel85">
@@ -1616,7 +1620,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Netflix no cobrar&#xe1; un suplemento por jugar"/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -1638,11 +1642,6 @@
                           <Component id="jPanel34" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                          <Component id="jLabel86" min="-2" pref="911" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
                       <Component id="jPanel33" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
@@ -1658,6 +1657,11 @@
                               <Component id="jLabel95" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel86" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="288" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1685,7 +1689,7 @@
                           <Component id="jLabel95" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel94" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel33" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -1740,7 +1744,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar"/>
+                    <Property name="text" type="java.lang.String" value="R&#xe9;cord mundial de Metrioid Dread: baja de la hora y media"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel87">
@@ -1748,7 +1752,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel88">
@@ -1756,7 +1760,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel89">
@@ -1764,7 +1768,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="En este caso, hemos podido ver un espectacular speedrun de este t&#xed;tulo. El usuario karterfreak ha logrado superarlo en menos de una hora y media, concretamente en 1:22:52. Se trata del r&#xe9;cord mundial actual. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel90">
@@ -1772,7 +1776,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Aqu&#xed; pod&#xe9;is verlo: "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel91">
@@ -1780,23 +1784,29 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel92">
                   <Properties>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                      <Color blue="ff" green="99" red="0" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Link al video"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de Mano"/>
+                    </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel92MouseClicked"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel93">
                   <Properties>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Desde YouTube os traemos un nuevo e interesante mensaje protagonizado por uno de los t&#xed;tulos m&#xe1;s destacados entre los jugadores de Nintendo Switch. Se trata efectivamente de Metroid Dread. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel94">
@@ -1804,7 +1814,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel95">
@@ -1812,7 +1822,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -1834,11 +1844,6 @@
                           <Component id="jPanel37" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                          <Component id="jLabel96" min="-2" pref="911" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
                       <Component id="jPanel36" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
@@ -1854,6 +1859,11 @@
                               <Component id="jLabel105" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="jLabel96" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1881,7 +1891,7 @@
                           <Component id="jLabel105" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel104" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel36" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -1936,7 +1946,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar"/>
+                    <Property name="text" type="java.lang.String" value="Titanfall 2 speedrunner uses grenades to set a new world record"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel97">
@@ -1944,7 +1954,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="propulsion method of shooting themselves forward to the finish line in a blistering time of 10.9 seconds. The new user beat them out by just 0.6 seconds. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel98">
@@ -1952,7 +1962,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="of Respawn&apos;s sequel, propelling themselves forward with actual grenade explosions to reach the finish line in a record-breaking time of 10.3 seconds. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel99">
@@ -1960,7 +1970,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="It&apos;s nothing short of an absolutely heroic feat. According to a little bit of research, the previous world record appears to have been held by the individual in the gameplay clip just below, which used a similar grenade "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel100">
@@ -1968,7 +1978,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="There&apos;s actually a hint as to how the new user was able to achieve the staggering new time. In the comments underneath the original subreddit post, the player notes that the &quot;crouch kick&quot; technique is still relatively "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel101">
@@ -1976,7 +1986,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="new on the Titanfall 2 Gauntlet speedrunning scene, and so they reckon it&apos;s entirely possible that a sub-10 second time might not be too far away."/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel102">
@@ -1984,7 +1994,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Well, for now we can only dream. If you&apos;re up to date on your Apex Legends lore, you might know that this method of using grenades to get through the Gauntlet was employed by none other than Octavio &quot;Octane&quot; Silva,"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel103">
@@ -1992,7 +2002,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Just below, you can check out the blistering gameplay clip which emerged on the Titanfall subreddit yesterday on November 18. The gameplay segment features the player beginning the Gauntlet run right at the beginning "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel104">
@@ -2000,7 +2010,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Better luck next time Octane, we can&apos;t all be winners."/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel105">
@@ -2008,7 +2018,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="a true adrenaline junkie seeking to take the crown for himself in the Titanfall universe. Octane&apos;s experiment went a little less swimmingly though, because he ended up blowing off both his legs. "/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -2030,11 +2040,6 @@
                           <Component id="jPanel40" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                          <Component id="jLabel106" min="-2" pref="911" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
                       <Component id="jPanel39" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
@@ -2050,6 +2055,11 @@
                               <Component id="jLabel115" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="204" max="-2" attributes="0"/>
+                          <Component id="jLabel106" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -2077,7 +2087,7 @@
                           <Component id="jLabel115" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel114" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel39" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -2132,7 +2142,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar"/>
+                    <Property name="text" type="java.lang.String" value="Speedrunners stop uploading runs to Speedrun.com as it adds comments"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel107">
@@ -2140,7 +2150,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="In response to this, The Simpsons: Hit &amp; Run speedrunner LiquidWIFI posted to Twitter yesterday (October 18) saying that comments need to go &#x201c;immediately,&#x201d; adding that &#x201c;no moderation being possible means all my runs  "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel108">
@@ -2148,7 +2158,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="An October 14 update on the Speedrun.com website announced run comments, a tool intended to increase &#x201c;the social aspect&#x201d; of the site beyond its forums. The post states that a fair few people have been asking for the  "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel109">
@@ -2156,7 +2166,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="feature, and that users can now &#x201c;celebrate runs with your friends and favourite runners.&#x201d; "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel110">
@@ -2164,7 +2174,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="have disgusting comments on them from banned people from my stream.&#x201d; "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel111">
@@ -2172,7 +2182,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Liquid has also written multiple posts about intentions to delete his speedrun.com account, and the deletion of all his The Simpson: Hit &amp; Run speedrun records on the site as well. As of publication Liquid&#x2019;s account  "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel112">
@@ -2180,7 +2190,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="is still up on the site, but all of their speedruns are deleted."/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel113">
@@ -2188,7 +2198,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Incredibly popular speedrun leaderboard website speedrun.com has added the ability for users to comment on runs, but introduced very little in the way of moderation, causing backlash from some speedrunning communities. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel114">
@@ -2196,7 +2206,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="the comment was even deleted and uploaded again."/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel115">
@@ -2204,7 +2214,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="As outlined by LiquidWIFI, moderators who delete runs can restore comments whilst the commenter can&#x2019;t, but commenters who delete their comments can restore them whenever they want, with no verification that"/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -2226,11 +2236,6 @@
                           <Component id="jPanel43" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                          <Component id="jLabel116" min="-2" pref="911" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
                       <Component id="jPanel42" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
@@ -2246,6 +2251,11 @@
                               <Component id="jLabel125" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="454" max="-2" attributes="0"/>
+                          <Component id="jLabel116" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -2273,7 +2283,7 @@
                           <Component id="jLabel125" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel124" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel42" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -2328,7 +2338,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar"/>
+                    <Property name="text" type="java.lang.String" value="SPEEDRUNNING WINDOWS 95"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel117">
@@ -2336,7 +2346,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="original floppy and CD-ROM images to be used, but there are no limits on hardware, so records should tumble as time goes on. All the top times have been completed in virtual machines, but we&#x2019;d love to see an attempt "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel118">
@@ -2344,7 +2354,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="and speedruns that just focus on getting to the game over screen as quickly as possible by hook or by crook. Now, there&#x2019;s a world record speedrun, installing Windows 95B in just 1 minute 10.9 seconds. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel119">
@@ -2352,7 +2362,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="The current best attempts are collected in a Google Sheets document. So far, there have been few competitors but we expect to see more activity in future. The current rules for world record competition require "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel120">
@@ -2360,7 +2370,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="made on raw hardware. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel121">
@@ -2368,7 +2378,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel122">
@@ -2376,7 +2386,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="It all kicked off when [oscareczek] grew tired of trying to compete in traditional gaming speedruns, so invented a new category instead. Competition has already come a long way from that original 4 minute time "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel123">
@@ -2384,7 +2394,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Speedrunning is the practice of attempting to beat a videogame in as short a time as possible. There are a huge variety of methods and styles. There are 100% completion speedruns, tool-assisted speedruns  "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel124">
@@ -2392,7 +2402,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel125">
@@ -2400,7 +2410,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="and competitors are now considering advanced techniques such as RAM disks to speed their runs. All keystrokes are by hand at the moment, but we could see a tool-assisted competition starting up in future."/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -2422,13 +2432,8 @@
                           <Component id="jPanel46" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                          <Component id="jLabel126" min="-2" pref="911" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
                       <Component id="jPanel45" alignment="0" max="32767" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel129" alignment="0" max="32767" attributes="0"/>
@@ -2440,6 +2445,11 @@
                               <Component id="jLabel130" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel134" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel135" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel126" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -2469,7 +2479,7 @@
                           <Component id="jLabel135" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel134" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel45" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -2519,12 +2529,12 @@
                 <Component class="javax.swing.JLabel" name="jLabel126">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Tahoma" size="24" style="1"/>
+                      <Font name="Tahoma" size="22" style="1"/>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar"/>
+                    <Property name="text" type="java.lang.String" value="Nintendo Celebrates Zelda Game &amp; Watch Launch With A New Super Mario Maker 2 Ninji Speedrun Course"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel127">
@@ -2532,7 +2542,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="It&apos;s a Zelda-themed one and is to celebrate the launch of the Game &amp; Watch: The Legend of Zelda this week. It&apos;ll be available until 21st November, so check it out while you can. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel128">
@@ -2540,7 +2550,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="Well, here&apos;s a surprise - Nintendo has released a brand new Ninji Speedrun course for Super Mario Maker 2. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel129">
@@ -2548,7 +2558,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel130">
@@ -2556,7 +2566,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel131">
@@ -2564,7 +2574,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="&quot;&quot;A new Ninji Speedrun course is here for a special occasion! To celebrate the launch of Game &amp; Watch: The Legend of #Zelda, a special course, &#x201c;Link&#x2019;s Lightweight Longshots&#x201d;, is available now in #SuperMarioMaker2 "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel132">
@@ -2572,7 +2582,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="until 11/21 6pm PT. Air out some arrows &amp; hit all the POW Blocks!&quot;&quot;"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel133">
@@ -2580,23 +2590,30 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel134">
                   <Properties>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                      <Color blue="ff" green="99" red="0" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" Video"/>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de Mano"/>
+                    </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel134MouseClicked"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel135">
                   <Properties>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -2618,11 +2635,6 @@
                           <Component id="jPanel49" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                          <Component id="jLabel136" min="-2" pref="911" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
                       <Component id="jPanel48" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
@@ -2638,6 +2650,11 @@
                               <Component id="jLabel145" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="349" max="-2" attributes="0"/>
+                          <Component id="jLabel136" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -2665,7 +2682,7 @@
                           <Component id="jLabel145" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="jLabel144" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
                           <Component id="jPanel48" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -2720,7 +2737,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar"/>
+                    <Property name="text" type="java.lang.String" value="GTA 3 speedrun undone by series of horrific odds"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel137">
@@ -2728,7 +2745,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="The speedrunner needed to hijack an ambulance in Grand Theft Auto 3 as part of his run. He had made a mistake previously, so he set up a particular glitch to put things back on track. Any car with a toggle-able side"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel138">
@@ -2736,7 +2753,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="that would have seen him complete Grand Theft Auto 3, Vice City, and San Andreas in succession but was undone by something that only has a 30% chance of happening. That&apos;s bad enough, but then it happened another"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel139">
@@ -2744,7 +2761,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="eight times (thanks, Kotaku)."/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel140">
@@ -2752,7 +2769,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="mission would have worked, but the ambulance was close by, so it made sense. English Ben explains that the vehicle only has a 30% chance of being locked, too, so you would have thought the odds would&apos;ve been"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel141">
@@ -2760,7 +2777,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="in his favour. "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel142">
@@ -2768,7 +2785,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel143">
@@ -2776,7 +2793,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="All it takes for a speedrun to come crashing down is one moment of error or bad luck. For one Grand Theft Auto speedrunner, however, it proved to be the latter. Content creator English Ben was attempting a run"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel144">
@@ -2792,7 +2809,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                    <Property name="text" type="java.lang.String" value="The speedrunner then takes an intentional death to respawn the ambulance before the run peters out after a few failed attempts to hijack the darn thing. English Ben was then left to keep trying it to see just"/>
                   </Properties>
                 </Component>
               </SubComponents>

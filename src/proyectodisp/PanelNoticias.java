@@ -338,7 +338,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel16)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel15)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -456,7 +456,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel25)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel24)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
                 .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -503,10 +503,10 @@ public class PanelNoticias extends javax.swing.JPanel {
         jLabel27.setText(" ");
 
         jLabel28.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel28.setText("de Derek Yu en la que había conseguido llegar al final en dos minutos y medio, algo que impactó en su momento y que desde entonces no ha sido superado; en parte porque la comunidad pasó a jugar a la versión HD del juego ");
+        jLabel28.setText(" roguelike de Derek Yu en la que había conseguido llegar al final en dos minutos y medio, algo que impactó en su momento y que desde entonces no ha sido superado; en parte porque la comunidad pasó a jugar ");
 
         jLabel29.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel29.setText("pero sobre todo por la dificultad de conseguir esa marca en un título con escenarios generados procedimentalmente. ");
+        jLabel29.setText("a la versión HD del juego pero sobre todo por la dificultad de conseguir esa marca en un título con escenarios generados procedimentalmente. ");
 
         jLabel30.setForeground(new java.awt.Color(204, 204, 204));
         jLabel30.setText("Ahora, gracias a la investigación de algunos miembros de la comunidad, se ha descubierto que aquel impresionante speedrun se consiguió con trampas. Al parecer, BarryMode utilizó un mod que permitía jugar el mismo ");
@@ -518,7 +518,7 @@ public class PanelNoticias extends javax.swing.JPanel {
         jLabel32.setText("se ha disculpado públicamente con la comunidad de speedrunners y ha eliminado el vídeo de su canal de YouTube.");
 
         jLabel33.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel33.setText("La comunidad de speedrunners de Spelunky llevaba ocho años sorprendida por un récord que el usuario BarryMode había publicado en su canal de YouTube: se trata de una partida de la versión clásica del plataformas roguelike ");
+        jLabel33.setText("La comunidad de speedrunners de Spelunky llevaba ocho años sorprendida por un récord que el usuario BarryMode había publicado en su canal de YouTube: se trata de una partida de la versión clásica del plataformas");
 
         jLabel34.setForeground(new java.awt.Color(204, 204, 204));
         jLabel34.setText(" ");
@@ -540,12 +540,15 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel28, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel28)
+                            .addComponent(jLabel33))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(jPanel14Layout.createSequentialGroup()
                 .addGap(71, 71, 71)
@@ -562,9 +565,9 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel33)
                 .addGap(1, 1, 1)
                 .addComponent(jLabel28)
-                .addGap(0, 0, 0)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel29)
-                .addGap(0, 0, 0)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel27)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel30)
@@ -620,7 +623,7 @@ public class PanelNoticias extends javax.swing.JPanel {
         jLabel36.setText("Disney quiere ser un gigante de los esports");
 
         jLabel37.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel37.setText("Disney lleva en el mundo de los videojuegos desde hace más de treinta años, concretamente comenzó en 1981 con un juego de Mickey Mouse para Game & Watch, y ha trabajado con grandes compañías de la industria como: ");
+        jLabel37.setText("Disney lleva en el mundo de los videojuegos desde hace más de treinta años, concretamente comenzó en 1981 con un juego de Mickey Mouse para Game & Watch, y ha trabajado con grandes compañías de la industria");
 
         jLabel38.setForeground(new java.awt.Color(204, 204, 204));
         jLabel38.setText("destaca el cine de animación, pero Disney va mucho más allá del principal exponente de la compañía. ");
@@ -629,7 +632,7 @@ public class PanelNoticias extends javax.swing.JPanel {
         jLabel39.setText(" ");
 
         jLabel40.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel40.setText("Capcom, Sega, Nintendo o Rare entre muchas otras. Además, durante dos décadas existió Disney Interactive, una rama de la empresa que entre muchas cosas se ocupó de Disney Infinity. ");
+        jLabel40.setText("como:  Capcom, Sega, Nintendo o Rare entre muchas otras. Además, durante dos décadas existió Disney Interactive, una rama de la empresa que entre muchas cosas se ocupó de Disney Infinity. ");
 
         jLabel41.setForeground(new java.awt.Color(204, 204, 204));
         jLabel41.setText(" ");
@@ -641,10 +644,10 @@ public class PanelNoticias extends javax.swing.JPanel {
         jLabel43.setText("La Walt Disney Company es uno de los grandes grupos de comunicación a nivel mundial, un gigante que trascenderá a su tiempo y que ha moldeado a la sociedad durante décadas. Su oferta es masiva en una  entre los que");
 
         jLabel44.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel44.setText("declaró a Forbes que tienen muy en mente al deporte electrónico.");
+        jLabel44.setText("en Disney World  declaró a Forbes que tienen muy en mente al deporte electrónico.");
 
         jLabel45.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel45.setText("unas instalaciones de 89 hectáreas que reciben cada año una gran cantidad de competiciones deportivas. Los esports hasta ahora han estado fuera del mundo Disney, pero Faron Kelly, vicepresidente de deportes en Disney World ");
+        jLabel45.setText("unas instalaciones de 89 hectáreas que reciben cada año una gran cantidad de competiciones deportivas. Los esports hasta ahora han estado fuera del mundo Disney, pero Faron Kelly, vicepresidente de deportes ");
 
         javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
         jPanel17.setLayout(jPanel17Layout);
@@ -668,7 +671,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel45, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
             .addGroup(jPanel17Layout.createSequentialGroup()
-                .addGap(396, 396, 396)
+                .addGap(383, 383, 383)
                 .addComponent(jLabel36)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -696,7 +699,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel45)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel44)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -772,7 +775,7 @@ public class PanelNoticias extends javax.swing.JPanel {
             jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel20Layout.createSequentialGroup()
                 .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 37, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
             .addComponent(jPanel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel20Layout.createSequentialGroup()
                 .addContainerGap()
@@ -788,7 +791,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel55, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
             .addGroup(jPanel20Layout.createSequentialGroup()
-                .addGap(173, 173, 173)
+                .addGap(153, 153, 153)
                 .addComponent(jLabel46)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -816,7 +819,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel55)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel54)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -892,7 +895,7 @@ public class PanelNoticias extends javax.swing.JPanel {
             jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel23Layout.createSequentialGroup()
                 .addComponent(jPanel25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 37, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
             .addComponent(jPanel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel23Layout.createSequentialGroup()
                 .addContainerGap()
@@ -908,7 +911,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel65, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
             .addGroup(jPanel23Layout.createSequentialGroup()
-                .addGap(186, 186, 186)
+                .addGap(168, 168, 168)
                 .addComponent(jLabel56)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -936,7 +939,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel65)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel64)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -977,34 +980,34 @@ public class PanelNoticias extends javax.swing.JPanel {
 
         jLabel66.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel66.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel66.setText("Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar");
+        jLabel66.setText("Jugador completa The Legend of Zelda: Majora’s Mask al 100% en tiempo récord");
 
         jLabel67.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel67.setText("jLabel4");
+        jLabel67.setText("Tal fue el caso del streamer y speedrunner Bewildebeest, quien recientemente logró completar el videojuego de Nintendo 64 al 100% y, más importante aún, en un impresionante tiempo récord. ");
 
         jLabel68.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel68.setText("jLabel4");
+        jLabel68.setText("el hogar de muchos speedruners que, año tras año, intentan trazar nuevos récords mundiales y hacer historia. ");
 
         jLabel69.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel69.setText("jLabel4");
+        jLabel69.setText(" ");
 
         jLabel70.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel70.setText("jLabel4");
+        jLabel70.setText(" ");
 
         jLabel71.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel71.setText("jLabel4");
+        jLabel71.setText("En específico, el speedrunner logró completar The Legend of Zelda: Majora’s Mask en tan solo 5 horas, 49 minutos y 51 segundos. Este tiempo le permitió superar el récord anterior que le pertenecía al jugador TrevPerson ");
 
         jLabel72.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel72.setText("jLabel4");
+        jLabel72.setText(", quien consiguió la misma hazaña en 5 horas, 50 minutos y 27 segundos. Como podemos observar, la diferencia entre ambas cifras es de apenas 2 minutos. ");
 
         jLabel73.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel73.setText("jLabel4");
+        jLabel73.setText("Pese a que debutó hace más de 20 años, The Legend of Zelda: Majora’s Mask aún permanece como una de las entregas de la franquicia más populares y queridas por la comunidad. Por supuesto, este título es");
 
         jLabel74.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel74.setText("jLabel4");
+        jLabel74.setText("completar 100% de la aventura, lo que incluye los objetivos principales de la campaña y los coleccionables. En promedio, un jugador común tardaría alrededor de 32 horas en conseguir todo lo anterior.");
 
         jLabel75.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel75.setText("jLabel4");
+        jLabel75.setText("Es importante señalar que este speedrun se realizó sin utilizar ningún tipo de glitch o trampa que permitieran omitir contenido o conseguir ítems más fácilmente. Así pues, el actual poseedor del récord mundial logró ");
 
         javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
         jPanel26.setLayout(jPanel26Layout);
@@ -1013,10 +1016,6 @@ public class PanelNoticias extends javax.swing.JPanel {
             .addGroup(jPanel26Layout.createSequentialGroup()
                 .addComponent(jPanel28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel26Layout.createSequentialGroup()
-                .addGap(183, 183, 183)
-                .addComponent(jLabel66, javax.swing.GroupLayout.PREFERRED_SIZE, 911, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel26Layout.createSequentialGroup()
                 .addContainerGap()
@@ -1031,6 +1030,10 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel74, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel75, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
+            .addGroup(jPanel26Layout.createSequentialGroup()
+                .addGap(154, 154, 154)
+                .addComponent(jLabel66)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel26Layout.setVerticalGroup(
             jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1039,7 +1042,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel66, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel73)
+                .addComponent(jLabel73, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(1, 1, 1)
                 .addComponent(jLabel68)
                 .addGap(0, 0, 0)
@@ -1056,7 +1059,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel75)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel74)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -1097,47 +1100,43 @@ public class PanelNoticias extends javax.swing.JPanel {
 
         jLabel76.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel76.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel76.setText("Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar");
+        jLabel76.setText("Netflix irrumpe en el mundo de los videojuegos con un modelo de negocio que puede cambiar la industria");
 
         jLabel77.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel77.setText("jLabel4");
+        jLabel77.setText(" ");
 
         jLabel78.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel78.setText("jLabel4");
+        jLabel78.setText("de la casa como antaño, sino que hasta los más mayores han probado alguna vez las mieles de esta tecnología. Este es el motivo de que, en 2020, los ingresos de la industria superasen a los de otros grandes sectores ");
 
         jLabel79.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel79.setText("jLabel4");
+        jLabel79.setText("como el cine, alcanzando los 179.700 millones de dólares, según MarketWatch. ");
 
         jLabel80.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel80.setText("jLabel4");
+        jLabel80.setText("Estas cifras han provocado la entrada en el mercado de gigantes tecnológicos como Amazon, Alphabet o Apple. Sin embargo, Netflix ha llegado para cambiar las reglas del juego. La multinacional del streaming acaba ");
 
         jLabel81.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel81.setText("jLabel4");
+        jLabel81.setText("de lanzar sus primeros cinco videojuegos para Android. ");
 
         jLabel82.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel82.setText("jLabel4");
+        jLabel82.setText(" ");
 
         jLabel83.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel83.setText("jLabel4");
+        jLabel83.setText("La industria del videojuego no deja de ganar adeptos. Se trata de uno de los mercados de más rápido crecimiento y de mayor proyección. Hoy en día, este sector no se reserva única y exclusivamente a los más pequeños ");
 
         jLabel84.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel84.setText("jLabel4");
+        jLabel84.setText(" ");
 
         jLabel85.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel85.setText("jLabel4");
+        jLabel85.setText("Netflix no cobrará un suplemento por jugar");
 
         javax.swing.GroupLayout jPanel29Layout = new javax.swing.GroupLayout(jPanel29);
         jPanel29.setLayout(jPanel29Layout);
         jPanel29Layout.setHorizontalGroup(
             jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel29Layout.createSequentialGroup()
                 .addComponent(jPanel31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel29Layout.createSequentialGroup()
-                .addGap(183, 183, 183)
-                .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 911, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addComponent(jPanel30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel29Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1149,7 +1148,10 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel77, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel80, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel84, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel85, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel85, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel29Layout.createSequentialGroup()
+                        .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 1262, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel29Layout.setVerticalGroup(
@@ -1176,7 +1178,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel85)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel84)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -1217,34 +1219,40 @@ public class PanelNoticias extends javax.swing.JPanel {
 
         jLabel86.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel86.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel86.setText("Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar");
+        jLabel86.setText("Récord mundial de Metrioid Dread: baja de la hora y media");
 
         jLabel87.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel87.setText("jLabel4");
+        jLabel87.setText(" ");
 
         jLabel88.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel88.setText("jLabel4");
+        jLabel88.setText(" ");
 
         jLabel89.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel89.setText("jLabel4");
+        jLabel89.setText("En este caso, hemos podido ver un espectacular speedrun de este título. El usuario karterfreak ha logrado superarlo en menos de una hora y media, concretamente en 1:22:52. Se trata del récord mundial actual. ");
 
         jLabel90.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel90.setText("jLabel4");
+        jLabel90.setText("Aquí podéis verlo: ");
 
         jLabel91.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel91.setText("jLabel4");
+        jLabel91.setText(" ");
 
-        jLabel92.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel92.setText("jLabel4");
+        jLabel92.setForeground(new java.awt.Color(0, 153, 255));
+        jLabel92.setText("Link al video");
+        jLabel92.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel92.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel92MouseClicked(evt);
+            }
+        });
 
         jLabel93.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel93.setText("jLabel4");
+        jLabel93.setText("Desde YouTube os traemos un nuevo e interesante mensaje protagonizado por uno de los títulos más destacados entre los jugadores de Nintendo Switch. Se trata efectivamente de Metroid Dread. ");
 
         jLabel94.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel94.setText("jLabel4");
+        jLabel94.setText(" ");
 
         jLabel95.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel95.setText("jLabel4");
+        jLabel95.setText(" ");
 
         javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
         jPanel32.setLayout(jPanel32Layout);
@@ -1253,10 +1261,6 @@ public class PanelNoticias extends javax.swing.JPanel {
             .addGroup(jPanel32Layout.createSequentialGroup()
                 .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel32Layout.createSequentialGroup()
-                .addGap(183, 183, 183)
-                .addComponent(jLabel86, javax.swing.GroupLayout.PREFERRED_SIZE, 911, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel32Layout.createSequentialGroup()
                 .addContainerGap()
@@ -1271,6 +1275,10 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel94, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel95, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel32Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel86)
+                .addGap(288, 288, 288))
         );
         jPanel32Layout.setVerticalGroup(
             jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1296,7 +1304,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel95)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel94)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -1337,34 +1345,34 @@ public class PanelNoticias extends javax.swing.JPanel {
 
         jLabel96.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel96.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel96.setText("Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar");
+        jLabel96.setText("Titanfall 2 speedrunner uses grenades to set a new world record");
 
         jLabel97.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel97.setText("jLabel4");
+        jLabel97.setText("propulsion method of shooting themselves forward to the finish line in a blistering time of 10.9 seconds. The new user beat them out by just 0.6 seconds. ");
 
         jLabel98.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel98.setText("jLabel4");
+        jLabel98.setText("of Respawn's sequel, propelling themselves forward with actual grenade explosions to reach the finish line in a record-breaking time of 10.3 seconds. ");
 
         jLabel99.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel99.setText("jLabel4");
+        jLabel99.setText("It's nothing short of an absolutely heroic feat. According to a little bit of research, the previous world record appears to have been held by the individual in the gameplay clip just below, which used a similar grenade ");
 
         jLabel100.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel100.setText("jLabel4");
+        jLabel100.setText("There's actually a hint as to how the new user was able to achieve the staggering new time. In the comments underneath the original subreddit post, the player notes that the \"crouch kick\" technique is still relatively ");
 
         jLabel101.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel101.setText("jLabel4");
+        jLabel101.setText("new on the Titanfall 2 Gauntlet speedrunning scene, and so they reckon it's entirely possible that a sub-10 second time might not be too far away.");
 
         jLabel102.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel102.setText("jLabel4");
+        jLabel102.setText("Well, for now we can only dream. If you're up to date on your Apex Legends lore, you might know that this method of using grenades to get through the Gauntlet was employed by none other than Octavio \"Octane\" Silva,");
 
         jLabel103.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel103.setText("jLabel4");
+        jLabel103.setText("Just below, you can check out the blistering gameplay clip which emerged on the Titanfall subreddit yesterday on November 18. The gameplay segment features the player beginning the Gauntlet run right at the beginning ");
 
         jLabel104.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel104.setText("jLabel4");
+        jLabel104.setText("Better luck next time Octane, we can't all be winners.");
 
         jLabel105.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel105.setText("jLabel4");
+        jLabel105.setText("a true adrenaline junkie seeking to take the crown for himself in the Titanfall universe. Octane's experiment went a little less swimmingly though, because he ended up blowing off both his legs. ");
 
         javax.swing.GroupLayout jPanel35Layout = new javax.swing.GroupLayout(jPanel35);
         jPanel35.setLayout(jPanel35Layout);
@@ -1373,10 +1381,6 @@ public class PanelNoticias extends javax.swing.JPanel {
             .addGroup(jPanel35Layout.createSequentialGroup()
                 .addComponent(jPanel37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel35Layout.createSequentialGroup()
-                .addGap(183, 183, 183)
-                .addComponent(jLabel96, javax.swing.GroupLayout.PREFERRED_SIZE, 911, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel35Layout.createSequentialGroup()
                 .addContainerGap()
@@ -1391,6 +1395,10 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel104, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel105, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
+            .addGroup(jPanel35Layout.createSequentialGroup()
+                .addGap(257, 257, 257)
+                .addComponent(jLabel96)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel35Layout.setVerticalGroup(
             jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1416,7 +1424,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel105)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel104)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -1457,34 +1465,34 @@ public class PanelNoticias extends javax.swing.JPanel {
 
         jLabel106.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel106.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel106.setText("Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar");
+        jLabel106.setText("Speedrunners stop uploading runs to Speedrun.com as it adds comments");
 
         jLabel107.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel107.setText("jLabel4");
+        jLabel107.setText("In response to this, The Simpsons: Hit & Run speedrunner LiquidWIFI posted to Twitter yesterday (October 18) saying that comments need to go “immediately,” adding that “no moderation being possible means all my runs  ");
 
         jLabel108.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel108.setText("jLabel4");
+        jLabel108.setText("An October 14 update on the Speedrun.com website announced run comments, a tool intended to increase “the social aspect” of the site beyond its forums. The post states that a fair few people have been asking for the  ");
 
         jLabel109.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel109.setText("jLabel4");
+        jLabel109.setText("feature, and that users can now “celebrate runs with your friends and favourite runners.” ");
 
         jLabel110.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel110.setText("jLabel4");
+        jLabel110.setText("have disgusting comments on them from banned people from my stream.” ");
 
         jLabel111.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel111.setText("jLabel4");
+        jLabel111.setText("Liquid has also written multiple posts about intentions to delete his speedrun.com account, and the deletion of all his The Simpson: Hit & Run speedrun records on the site as well. As of publication Liquid’s account  ");
 
         jLabel112.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel112.setText("jLabel4");
+        jLabel112.setText("is still up on the site, but all of their speedruns are deleted.");
 
         jLabel113.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel113.setText("jLabel4");
+        jLabel113.setText("Incredibly popular speedrun leaderboard website speedrun.com has added the ability for users to comment on runs, but introduced very little in the way of moderation, causing backlash from some speedrunning communities. ");
 
         jLabel114.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel114.setText("jLabel4");
+        jLabel114.setText("the comment was even deleted and uploaded again.");
 
         jLabel115.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel115.setText("jLabel4");
+        jLabel115.setText("As outlined by LiquidWIFI, moderators who delete runs can restore comments whilst the commenter can’t, but commenters who delete their comments can restore them whenever they want, with no verification that");
 
         javax.swing.GroupLayout jPanel38Layout = new javax.swing.GroupLayout(jPanel38);
         jPanel38.setLayout(jPanel38Layout);
@@ -1493,10 +1501,6 @@ public class PanelNoticias extends javax.swing.JPanel {
             .addGroup(jPanel38Layout.createSequentialGroup()
                 .addComponent(jPanel40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel38Layout.createSequentialGroup()
-                .addGap(183, 183, 183)
-                .addComponent(jLabel106, javax.swing.GroupLayout.PREFERRED_SIZE, 911, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel38Layout.createSequentialGroup()
                 .addContainerGap()
@@ -1511,6 +1515,10 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel114, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel115, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
+            .addGroup(jPanel38Layout.createSequentialGroup()
+                .addGap(204, 204, 204)
+                .addComponent(jLabel106)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel38Layout.setVerticalGroup(
             jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1536,7 +1544,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel115)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel114)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -1577,34 +1585,34 @@ public class PanelNoticias extends javax.swing.JPanel {
 
         jLabel116.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel116.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel116.setText("Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar");
+        jLabel116.setText("SPEEDRUNNING WINDOWS 95");
 
         jLabel117.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel117.setText("jLabel4");
+        jLabel117.setText("original floppy and CD-ROM images to be used, but there are no limits on hardware, so records should tumble as time goes on. All the top times have been completed in virtual machines, but we’d love to see an attempt ");
 
         jLabel118.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel118.setText("jLabel4");
+        jLabel118.setText("and speedruns that just focus on getting to the game over screen as quickly as possible by hook or by crook. Now, there’s a world record speedrun, installing Windows 95B in just 1 minute 10.9 seconds. ");
 
         jLabel119.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel119.setText("jLabel4");
+        jLabel119.setText("The current best attempts are collected in a Google Sheets document. So far, there have been few competitors but we expect to see more activity in future. The current rules for world record competition require ");
 
         jLabel120.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel120.setText("jLabel4");
+        jLabel120.setText("made on raw hardware. ");
 
         jLabel121.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel121.setText("jLabel4");
+        jLabel121.setText(" ");
 
         jLabel122.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel122.setText("jLabel4");
+        jLabel122.setText("It all kicked off when [oscareczek] grew tired of trying to compete in traditional gaming speedruns, so invented a new category instead. Competition has already come a long way from that original 4 minute time ");
 
         jLabel123.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel123.setText("jLabel4");
+        jLabel123.setText("Speedrunning is the practice of attempting to beat a videogame in as short a time as possible. There are a huge variety of methods and styles. There are 100% completion speedruns, tool-assisted speedruns  ");
 
         jLabel124.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel124.setText("jLabel4");
+        jLabel124.setText(" ");
 
         jLabel125.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel125.setText("jLabel4");
+        jLabel125.setText("and competitors are now considering advanced techniques such as RAM disks to speed their runs. All keystrokes are by hand at the moment, but we could see a tool-assisted competition starting up in future.");
 
         javax.swing.GroupLayout jPanel41Layout = new javax.swing.GroupLayout(jPanel41);
         jPanel41.setLayout(jPanel41Layout);
@@ -1613,10 +1621,6 @@ public class PanelNoticias extends javax.swing.JPanel {
             .addGroup(jPanel41Layout.createSequentialGroup()
                 .addComponent(jPanel43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel41Layout.createSequentialGroup()
-                .addGap(183, 183, 183)
-                .addComponent(jLabel116, javax.swing.GroupLayout.PREFERRED_SIZE, 911, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel42, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel41Layout.createSequentialGroup()
                 .addContainerGap()
@@ -1631,6 +1635,10 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel124, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel125, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
+            .addGroup(jPanel41Layout.createSequentialGroup()
+                .addGap(454, 454, 454)
+                .addComponent(jLabel116)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel41Layout.setVerticalGroup(
             jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1656,7 +1664,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel125)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel124)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -1695,36 +1703,43 @@ public class PanelNoticias extends javax.swing.JPanel {
             .addGap(0, 9, Short.MAX_VALUE)
         );
 
-        jLabel126.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel126.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
         jLabel126.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel126.setText("Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar");
+        jLabel126.setText("Nintendo Celebrates Zelda Game & Watch Launch With A New Super Mario Maker 2 Ninji Speedrun Course");
 
         jLabel127.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel127.setText("jLabel4");
+        jLabel127.setText("It's a Zelda-themed one and is to celebrate the launch of the Game & Watch: The Legend of Zelda this week. It'll be available until 21st November, so check it out while you can. ");
 
         jLabel128.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel128.setText("jLabel4");
+        jLabel128.setText("Well, here's a surprise - Nintendo has released a brand new Ninji Speedrun course for Super Mario Maker 2. ");
 
         jLabel129.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel129.setText("jLabel4");
+        jLabel129.setText(" ");
 
         jLabel130.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel130.setText("jLabel4");
+        jLabel130.setText(" ");
 
         jLabel131.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel131.setText("jLabel4");
+        jLabel131.setText("\"\"A new Ninji Speedrun course is here for a special occasion! To celebrate the launch of Game & Watch: The Legend of #Zelda, a special course, “Link’s Lightweight Longshots”, is available now in #SuperMarioMaker2 ");
 
         jLabel132.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel132.setText("jLabel4");
+        jLabel132.setText("until 11/21 6pm PT. Air out some arrows & hit all the POW Blocks!\"\"");
 
         jLabel133.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel133.setText("jLabel4");
+        jLabel133.setText(" ");
 
-        jLabel134.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel134.setText("jLabel4");
+        jLabel134.setForeground(new java.awt.Color(0, 153, 255));
+        jLabel134.setText(" Video");
+        jLabel134.setToolTipText("");
+        jLabel134.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel134.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel134MouseClicked(evt);
+            }
+        });
 
         jLabel135.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel135.setText("jLabel4");
+        jLabel135.setText(" ");
 
         javax.swing.GroupLayout jPanel44Layout = new javax.swing.GroupLayout(jPanel44);
         jPanel44.setLayout(jPanel44Layout);
@@ -1733,10 +1748,6 @@ public class PanelNoticias extends javax.swing.JPanel {
             .addGroup(jPanel44Layout.createSequentialGroup()
                 .addComponent(jPanel46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel44Layout.createSequentialGroup()
-                .addGap(183, 183, 183)
-                .addComponent(jLabel126, javax.swing.GroupLayout.PREFERRED_SIZE, 911, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel45, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel44Layout.createSequentialGroup()
                 .addContainerGap()
@@ -1749,7 +1760,11 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel127, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel130, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel134, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel135, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel135, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel44Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jLabel126)
+                        .addGap(48, 48, 48)))
                 .addContainerGap())
         );
         jPanel44Layout.setVerticalGroup(
@@ -1776,7 +1791,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel135)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel134)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -1817,34 +1832,34 @@ public class PanelNoticias extends javax.swing.JPanel {
 
         jLabel136.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel136.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel136.setText("Ryu Ga Gotoku Studio trabaja en Yakuza 8 y en un juego sin anunciar");
+        jLabel136.setText("GTA 3 speedrun undone by series of horrific odds");
 
         jLabel137.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel137.setText("jLabel4");
+        jLabel137.setText("The speedrunner needed to hijack an ambulance in Grand Theft Auto 3 as part of his run. He had made a mistake previously, so he set up a particular glitch to put things back on track. Any car with a toggle-able side");
 
         jLabel138.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel138.setText("jLabel4");
+        jLabel138.setText("that would have seen him complete Grand Theft Auto 3, Vice City, and San Andreas in succession but was undone by something that only has a 30% chance of happening. That's bad enough, but then it happened another");
 
         jLabel139.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel139.setText("jLabel4");
+        jLabel139.setText("eight times (thanks, Kotaku).");
 
         jLabel140.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel140.setText("jLabel4");
+        jLabel140.setText("mission would have worked, but the ambulance was close by, so it made sense. English Ben explains that the vehicle only has a 30% chance of being locked, too, so you would have thought the odds would've been");
 
         jLabel141.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel141.setText("jLabel4");
+        jLabel141.setText("in his favour. ");
 
         jLabel142.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel142.setText("jLabel4");
+        jLabel142.setText(" ");
 
         jLabel143.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel143.setText("jLabel4");
+        jLabel143.setText("All it takes for a speedrun to come crashing down is one moment of error or bad luck. For one Grand Theft Auto speedrunner, however, it proved to be the latter. Content creator English Ben was attempting a run");
 
         jLabel144.setForeground(new java.awt.Color(204, 204, 204));
         jLabel144.setText("jLabel4");
 
         jLabel145.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel145.setText("jLabel4");
+        jLabel145.setText("The speedrunner then takes an intentional death to respawn the ambulance before the run peters out after a few failed attempts to hijack the darn thing. English Ben was then left to keep trying it to see just");
 
         javax.swing.GroupLayout jPanel47Layout = new javax.swing.GroupLayout(jPanel47);
         jPanel47.setLayout(jPanel47Layout);
@@ -1853,10 +1868,6 @@ public class PanelNoticias extends javax.swing.JPanel {
             .addGroup(jPanel47Layout.createSequentialGroup()
                 .addComponent(jPanel49, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel47Layout.createSequentialGroup()
-                .addGap(183, 183, 183)
-                .addComponent(jLabel136, javax.swing.GroupLayout.PREFERRED_SIZE, 911, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel48, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel47Layout.createSequentialGroup()
                 .addContainerGap()
@@ -1871,6 +1882,10 @@ public class PanelNoticias extends javax.swing.JPanel {
                     .addComponent(jLabel144, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel145, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
+            .addGroup(jPanel47Layout.createSequentialGroup()
+                .addGap(349, 349, 349)
+                .addComponent(jLabel136)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel47Layout.setVerticalGroup(
             jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1896,7 +1911,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel145)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel144)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jPanel48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -1953,36 +1968,64 @@ try {
     }//GEN-LAST:event_jPanel23MouseClicked
 
     private void jPanel26MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel26MouseClicked
-        // TODO add your handling code here:
+        try {
+    Desktop.getDesktop().browse(new URL("https://www.levelup.com/noticias/648861/Jugador-completa-The-Legend-of-Zelda-Majoras-Mask-al-100-en-tiempo-record").toURI());
+    } catch (IOException | URISyntaxException e) {}
     }//GEN-LAST:event_jPanel26MouseClicked
 
     private void jPanel29MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel29MouseClicked
-        // TODO add your handling code here:
+        try {
+    Desktop.getDesktop().browse(new URL("https://www.eleconomista.es/empresas-finanzas/noticias/11466649/11/21/Netflix-irrumpe-en-el-mundo-de-los-videojuegos-con-un-modelo-de-negocio-que-puede-cambiar-la-industria.html").toURI());
+    } catch (IOException | URISyntaxException e) {}
     }//GEN-LAST:event_jPanel29MouseClicked
 
     private void jPanel32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel32MouseClicked
-        // TODO add your handling code here:
+        try {
+    Desktop.getDesktop().browse(new URL("https://www.nintenderos.com/2021/11/conoce-el-record-mundial-de-speedrun-de-metroid-dread-baja-de-la-hora-y-media/").toURI());
+    } catch (IOException | URISyntaxException e) {}
     }//GEN-LAST:event_jPanel32MouseClicked
 
     private void jPanel35MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel35MouseClicked
-        // TODO add your handling code here:
+        try {
+    Desktop.getDesktop().browse(new URL("https://www.msn.com/en-us/news/us/titanfall-2-speedrunner-uses-grenades-to-set-a-new-world-record/ar-AAQUHwX").toURI());
+    } catch (IOException | URISyntaxException e) {}
     }//GEN-LAST:event_jPanel35MouseClicked
 
     private void jPanel38MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel38MouseClicked
-        // TODO add your handling code here:
+       try {
+    Desktop.getDesktop().browse(new URL("https://www.nme.com/news/gaming-news/speedrunners-stop-uploading-runs-to-speedrun-com-as-it-adds-comments-3074312?amp").toURI());
+    } catch (IOException | URISyntaxException e) {}
     }//GEN-LAST:event_jPanel38MouseClicked
 
     private void jPanel41MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel41MouseClicked
-        // TODO add your handling code here:
+       try {
+    Desktop.getDesktop().browse(new URL("https://hackaday.com/2019/03/09/speedrunning-windows-95/").toURI());
+    } catch (IOException | URISyntaxException e) {}
     }//GEN-LAST:event_jPanel41MouseClicked
 
     private void jPanel44MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel44MouseClicked
-        // TODO add your handling code here:
+        try {
+    Desktop.getDesktop().browse(new URL("https://www.nintendolife.com/news/2021/11/nintendo-celebrates-zelda-game-and-watch-launch-with-a-new-super-mario-maker-2-ninji-speedrun-course").toURI());
+    } catch (IOException | URISyntaxException e) {}
     }//GEN-LAST:event_jPanel44MouseClicked
 
     private void jPanel47MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel47MouseClicked
-        // TODO add your handling code here:
+        try {
+    Desktop.getDesktop().browse(new URL("https://www.pcgamesn.com/grand-theft-auto-iii/speedrun-ambulance-glitch").toURI());
+    } catch (IOException | URISyntaxException e) {}
     }//GEN-LAST:event_jPanel47MouseClicked
+
+    private void jLabel92MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel92MouseClicked
+        try {
+    Desktop.getDesktop().browse(new URL("https://www.youtube.com/watch?v=1QaLG_eB9yQ").toURI());
+    } catch (IOException | URISyntaxException e) {}
+    }//GEN-LAST:event_jLabel92MouseClicked
+
+    private void jLabel134MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel134MouseClicked
+        try {
+    Desktop.getDesktop().browse(new URL("https://www.youtube.com/watch?v=r3GRpuf9s68").toURI());
+    } catch (IOException | URISyntaxException e) {}
+    }//GEN-LAST:event_jLabel134MouseClicked
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
