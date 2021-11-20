@@ -88,9 +88,10 @@ public class Main extends javax.swing.JFrame {
         jLabelStreams = new javax.swing.JLabel();
         jLabelForos = new javax.swing.JLabel();
         jTexBbuscar = new javax.swing.JTextField();
-        jLabelLogin = new javax.swing.JLabel();
-        jLabelRegister = new javax.swing.JLabel();
+        jLabelAutentificacion = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 0, 0));
@@ -107,7 +108,7 @@ public class Main extends javax.swing.JFrame {
         jPanelDin.setLayout(jPanelDinLayout);
         jPanelDinLayout.setHorizontalGroup(
             jPanelDinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1280, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanelDinLayout.setVerticalGroup(
             jPanelDinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -119,7 +120,7 @@ public class Main extends javax.swing.JFrame {
 
         jLabelMain.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabelMain.setForeground(new java.awt.Color(0, 0, 0));
-        jLabelMain.setText("Speedrun.com (?)");
+        jLabelMain.setText("Speedrun.com");
         jLabelMain.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabelMain.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -196,7 +197,7 @@ public class Main extends javax.swing.JFrame {
         });
 
         jTexBbuscar.setForeground(new java.awt.Color(51, 51, 51));
-        jTexBbuscar.setText("Buscar..."); // NOI18N
+        jTexBbuscar.setText("Buscar juegos o usuarios.."); // NOI18N
         jTexBbuscar.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         jTexBbuscar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -209,35 +210,19 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        jLabelLogin.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabelLogin.setForeground(new java.awt.Color(0, 0, 0));
-        jLabelLogin.setText("Iniciar sesión");
-        jLabelLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabelLogin.addMouseListener(new java.awt.event.MouseAdapter() {
+        jLabelAutentificacion.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabelAutentificacion.setForeground(new java.awt.Color(0, 0, 0));
+        jLabelAutentificacion.setText("Autentificacion");
+        jLabelAutentificacion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabelAutentificacion.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabelLoginMouseClicked(evt);
+                jLabelAutentificacionMouseClicked(evt);
             }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jLabelLoginMouseEntered(evt);
+                jLabelAutentificacionMouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jLabelLoginMouseExited(evt);
-            }
-        });
-
-        jLabelRegister.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabelRegister.setForeground(new java.awt.Color(0, 0, 0));
-        jLabelRegister.setText("Registrarse");
-        jLabelRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabelRegister.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabelRegisterMouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jLabelRegisterMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jLabelRegisterMouseExited(evt);
+                jLabelAutentificacionMouseExited(evt);
             }
         });
 
@@ -256,16 +241,31 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyectodisp/imageicos/logito.png"))); // NOI18N
+
+        jComboBox1.setBackground(new java.awt.Color(255, 0, 51));
+        jComboBox1.setForeground(new java.awt.Color(0, 0, 0));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Español", "English", "Polski", "Français", "Nederlands", "中文 (简体)", "中文 (繁體)", "日本語", "Deutsch", "Italiano", "Čeština", "ελληνικά", "Svenska", "български", "Русский", "Portugês" }));
+        jComboBox1.setBorder(null);
+        jComboBox1.setOpaque(false);
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(37, Short.MAX_VALUE)
+                .addGap(31, 31, 31)
                 .addComponent(jLabelMain)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
+                .addGap(36, 36, 36)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 6, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(JLabelJuegos)
                 .addGap(18, 18, 18)
                 .addComponent(jLabelStreams)
@@ -275,18 +275,20 @@ public class Main extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTexBbuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabelAutentificacion)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabelLogin)
-                .addGap(18, 18, 18)
-                .addComponent(jLabelRegister)
-                .addGap(14, 14, 14))
+                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 79, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabelMain)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabelMain, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(29, 29, 29))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -296,17 +298,17 @@ public class Main extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabelLogin)
-                            .addComponent(jLabelRegister)))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(JLabelJuegos)
                             .addComponent(jLabelStreams)
                             .addComponent(jLabelForos)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabelAutentificacion))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -314,8 +316,8 @@ public class Main extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jPanelDin, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 1285, Short.MAX_VALUE)
+            .addComponent(jPanelDin, javax.swing.GroupLayout.DEFAULT_SIZE, 1285, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -345,7 +347,7 @@ public class Main extends javax.swing.JFrame {
 
     private void jTexBbuscarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTexBbuscarMouseClicked
     String texto = jTexBbuscar.getText();
-    if ("Buscar...".equals(texto)){
+    if ("Buscar juegos o usuarios..".equals(texto)){
     jTexBbuscar.setText("");
         repaint();          //No se lo que hacen estas
         revalidate();       // dos lineas, pero al parecer es buena idea ponerlos
@@ -388,27 +390,16 @@ public class Main extends javax.swing.JFrame {
         jLabelForos.setBackground(Color.black);
     }//GEN-LAST:event_jLabelForosMouseExited
 
-    private void jLabelLoginMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelLoginMouseEntered
-       jLabelLogin.setForeground(Color.white);
-        jLabelLogin.setBackground(Color.white);
-    }//GEN-LAST:event_jLabelLoginMouseEntered
+    private void jLabelAutentificacionMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelAutentificacionMouseEntered
+       jLabelAutentificacion.setForeground(Color.white);
+        jLabelAutentificacion.setBackground(Color.white);
+    }//GEN-LAST:event_jLabelAutentificacionMouseEntered
 
-    private void jLabelRegisterMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelRegisterMouseEntered
-        jLabelRegister.setForeground(Color.white);
-        jLabelRegister.setBackground(Color.white);
-    }//GEN-LAST:event_jLabelRegisterMouseEntered
-
-    private void jLabelLoginMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelLoginMouseExited
+    private void jLabelAutentificacionMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelAutentificacionMouseExited
                                                   
-        jLabelLogin.setForeground(Color.black);
-        jLabelLogin.setBackground(Color.black);
-    }//GEN-LAST:event_jLabelLoginMouseExited
-
-    private void jLabelRegisterMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelRegisterMouseExited
-        jLabelRegister.setForeground(Color.black);
-        jLabelRegister
-                .setBackground(Color.black);
-    }//GEN-LAST:event_jLabelRegisterMouseExited
+        jLabelAutentificacion.setForeground(Color.black);
+        jLabelAutentificacion.setBackground(Color.black);
+    }//GEN-LAST:event_jLabelAutentificacionMouseExited
 
     private void JLabelJuegosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JLabelJuegosMouseClicked
         panelForos.setVisible(false);
@@ -420,9 +411,9 @@ public class Main extends javax.swing.JFrame {
     }//GEN-LAST:event_JLabelJuegosMouseClicked
 
     private void jLabelStreamsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelStreamsMouseClicked
-        panelForos.setVisible(false);
+        panelForos.setVisible(true);
         panelJuegos.setVisible(false);
-        panelLogin.setVisible(true);
+        panelLogin.setVisible(false);
         panelRegister.setVisible(false);
         panelStreams.setVisible(false);
         panelMain.setVisible(false);
@@ -437,23 +428,14 @@ public class Main extends javax.swing.JFrame {
         panelMain.setVisible(false);
     }//GEN-LAST:event_jLabelForosMouseClicked
 
-    private void jLabelLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelLoginMouseClicked
+    private void jLabelAutentificacionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelAutentificacionMouseClicked
        panelForos.setVisible(false);
         panelJuegos.setVisible(false);
         panelLogin.setVisible(true);
         panelRegister.setVisible(false);
         panelStreams.setVisible(false);
         panelMain.setVisible(false);
-    }//GEN-LAST:event_jLabelLoginMouseClicked
-
-    private void jLabelRegisterMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelRegisterMouseClicked
-        panelForos.setVisible(false);
-        panelJuegos.setVisible(false);
-        panelLogin.setVisible(false);
-        panelRegister.setVisible(true);
-        panelStreams.setVisible(false);
-        panelMain.setVisible(false);
-    }//GEN-LAST:event_jLabelRegisterMouseClicked
+    }//GEN-LAST:event_jLabelAutentificacionMouseClicked
 
     private void jLabelMainMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelMainMouseClicked
         panelForos.setVisible(false);
@@ -505,6 +487,10 @@ public class Main extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jLabel1MouseReleased
 
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -543,11 +529,12 @@ public class Main extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel JLabelJuegos;
+    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabelAutentificacion;
     private javax.swing.JLabel jLabelForos;
-    private javax.swing.JLabel jLabelLogin;
     private javax.swing.JLabel jLabelMain;
-    private javax.swing.JLabel jLabelRegister;
     private javax.swing.JLabel jLabelStreams;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
