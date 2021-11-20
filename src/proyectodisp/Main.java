@@ -23,19 +23,19 @@ import javax.swing.JTabbedPane;
 public class Main extends javax.swing.JFrame {
     GridBagLayout dinamico = new GridBagLayout();
     PanelJuegosgrid panelJuegos;
-    PanelInfo panelStreams;
+    PanelNoticias panelStreams;
     PanelLogin panelLogin;
-    PanelNoticias panelForos;
+    PanelInfo panelForos;
     PanelRegister panelRegister;
     PanelMain panelMain;
     Color colormain = new Color(255, 204, 255);
     public Main() {
         initComponents();
         panelJuegos= new PanelJuegosgrid();
-        panelForos = new PanelNoticias();
+        panelForos = new PanelInfo();
         panelRegister = new PanelRegister();
         panelLogin = new PanelLogin();
-        panelStreams = new PanelInfo();
+        panelStreams = new PanelNoticias();
         panelMain = new PanelMain();
         jPanelDin.setLayout(dinamico);
         GridBagConstraints c = new GridBagConstraints();
@@ -120,6 +120,7 @@ public class Main extends javax.swing.JFrame {
         jLabelMain.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabelMain.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMain.setText("Speedrun.com (?)");
+        jLabelMain.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabelMain.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabelMainMouseClicked(evt);
@@ -149,6 +150,7 @@ public class Main extends javax.swing.JFrame {
         JLabelJuegos.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         JLabelJuegos.setForeground(new java.awt.Color(0, 0, 0));
         JLabelJuegos.setText("Juegos");
+        JLabelJuegos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         JLabelJuegos.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 JLabelJuegosMouseClicked(evt);
@@ -164,6 +166,7 @@ public class Main extends javax.swing.JFrame {
         jLabelStreams.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabelStreams.setForeground(new java.awt.Color(0, 0, 0));
         jLabelStreams.setText("Info");
+        jLabelStreams.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabelStreams.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabelStreamsMouseClicked(evt);
@@ -179,6 +182,7 @@ public class Main extends javax.swing.JFrame {
         jLabelForos.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabelForos.setForeground(new java.awt.Color(0, 0, 0));
         jLabelForos.setText("Noticias");
+        jLabelForos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabelForos.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabelForosMouseClicked(evt);
@@ -193,6 +197,7 @@ public class Main extends javax.swing.JFrame {
 
         jTexBbuscar.setForeground(new java.awt.Color(51, 51, 51));
         jTexBbuscar.setText("Buscar..."); // NOI18N
+        jTexBbuscar.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         jTexBbuscar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jTexBbuscarMouseClicked(evt);
@@ -207,6 +212,7 @@ public class Main extends javax.swing.JFrame {
         jLabelLogin.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabelLogin.setForeground(new java.awt.Color(0, 0, 0));
         jLabelLogin.setText("Iniciar sesión");
+        jLabelLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabelLogin.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabelLoginMouseClicked(evt);
@@ -222,6 +228,7 @@ public class Main extends javax.swing.JFrame {
         jLabelRegister.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabelRegister.setForeground(new java.awt.Color(0, 0, 0));
         jLabelRegister.setText("Registrarse");
+        jLabelRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabelRegister.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabelRegisterMouseClicked(evt);
@@ -236,6 +243,7 @@ public class Main extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyectodisp/imageicos/botonmainfase1.png"))); // NOI18N
         jLabel1.setToolTipText("Subir Speedrun");
+        jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel1MouseClicked(evt);
@@ -414,18 +422,18 @@ public class Main extends javax.swing.JFrame {
     private void jLabelStreamsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelStreamsMouseClicked
         panelForos.setVisible(false);
         panelJuegos.setVisible(false);
-        panelLogin.setVisible(false);
+        panelLogin.setVisible(true);
         panelRegister.setVisible(false);
-        panelStreams.setVisible(true);
+        panelStreams.setVisible(false);
         panelMain.setVisible(false);
     }//GEN-LAST:event_jLabelStreamsMouseClicked
 
     private void jLabelForosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelForosMouseClicked
-        panelForos.setVisible(true);
+        panelForos.setVisible(false);
         panelJuegos.setVisible(false);
         panelLogin.setVisible(false);
         panelRegister.setVisible(false);
-        panelStreams.setVisible(false);
+        panelStreams.setVisible(true);
         panelMain.setVisible(false);
     }//GEN-LAST:event_jLabelForosMouseClicked
 
