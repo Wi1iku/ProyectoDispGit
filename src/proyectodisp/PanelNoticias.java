@@ -227,6 +227,7 @@ public class PanelNoticias extends javax.swing.JPanel {
         jPanel1.setLayout(new java.awt.GridLayout(14, 1));
 
         jPanel2.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel2MouseClicked(evt);
@@ -338,13 +339,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel16)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel15)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel2);
 
         jPanel11.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel11MouseClicked(evt);
@@ -456,13 +458,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel25)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel24)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
                 .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel11);
 
         jPanel14.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel14MouseClicked(evt);
@@ -586,6 +589,7 @@ public class PanelNoticias extends javax.swing.JPanel {
         jPanel1.add(jPanel14);
 
         jPanel17.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel17.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel17MouseClicked(evt);
@@ -699,13 +703,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel45)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel44)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel17);
 
         jPanel20.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel20.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel20.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel20MouseClicked(evt);
@@ -819,13 +824,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel55)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel54)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel20);
 
         jPanel23.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel23.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel23.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel23MouseClicked(evt);
@@ -939,13 +945,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel65)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel64)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel23);
 
         jPanel26.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel26.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel26.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel26MouseClicked(evt);
@@ -1059,13 +1066,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel75)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel74)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel26);
 
         jPanel29.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel29.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel29.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel29MouseClicked(evt);
@@ -1178,13 +1186,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel85)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel84)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel29);
 
         jPanel32.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel32.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel32.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel32MouseClicked(evt);
@@ -1238,7 +1247,7 @@ public class PanelNoticias extends javax.swing.JPanel {
 
         jLabel92.setForeground(new java.awt.Color(0, 153, 255));
         jLabel92.setText("Link al video");
-        jLabel92.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel92.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel92.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel92MouseClicked(evt);
@@ -1304,13 +1313,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel95)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel94)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel32);
 
         jPanel35.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel35.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel35.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel35MouseClicked(evt);
@@ -1424,13 +1434,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel105)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel104)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel35);
 
         jPanel38.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel38.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel38.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel38MouseClicked(evt);
@@ -1544,13 +1555,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel115)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel114)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel38);
 
         jPanel41.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel41.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel41.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel41MouseClicked(evt);
@@ -1664,13 +1676,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel125)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel124)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel41);
 
         jPanel44.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel44.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel44.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel44MouseClicked(evt);
@@ -1731,7 +1744,7 @@ public class PanelNoticias extends javax.swing.JPanel {
         jLabel134.setForeground(new java.awt.Color(0, 153, 255));
         jLabel134.setText(" Video");
         jLabel134.setToolTipText("");
-        jLabel134.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel134.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel134.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel134MouseClicked(evt);
@@ -1791,13 +1804,14 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel135)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel134)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(jPanel44);
 
         jPanel47.setBackground(new java.awt.Color(57, 57, 57));
+        jPanel47.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel47.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel47MouseClicked(evt);
@@ -1856,7 +1870,7 @@ public class PanelNoticias extends javax.swing.JPanel {
         jLabel143.setText("All it takes for a speedrun to come crashing down is one moment of error or bad luck. For one Grand Theft Auto speedrunner, however, it proved to be the latter. Content creator English Ben was attempting a run");
 
         jLabel144.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel144.setText("jLabel4");
+        jLabel144.setText("ust how bad his luck was. He works out that the odds of the events in this speedrun are 1/15242, or 0.0066%.");
 
         jLabel145.setForeground(new java.awt.Color(204, 204, 204));
         jLabel145.setText("The speedrunner then takes an intentional death to respawn the ambulance before the run peters out after a few failed attempts to hijack the darn thing. English Ben was then left to keep trying it to see just");
@@ -1911,7 +1925,7 @@ public class PanelNoticias extends javax.swing.JPanel {
                 .addComponent(jLabel145)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel144)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addComponent(jPanel48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
