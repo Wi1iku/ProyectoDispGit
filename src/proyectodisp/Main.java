@@ -59,8 +59,8 @@ public class Main extends javax.swing.JFrame {
         jPanelDin.add(panelMain, c);
         c.gridx=0;
         c.gridy=0;
-        panelMain.setVisible(true);
-        panelForos.setVisible(false);
+        panelMain.setVisible(false);
+        panelForos.setVisible(true);
         panelJuegos.setVisible(false);
         panelLogin.setVisible(false);
         panelRegister.setVisible(false);
@@ -120,7 +120,7 @@ public class Main extends javax.swing.JFrame {
 
         jLabelMain.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabelMain.setForeground(new java.awt.Color(0, 0, 0));
-        jLabelMain.setText("Speedrun.com");
+        jLabelMain.setText("SpeedUP");
         jLabelMain.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabelMain.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -247,7 +247,7 @@ public class Main extends javax.swing.JFrame {
         jComboBox1.setForeground(new java.awt.Color(0, 0, 0));
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Español", "English", "Polski", "Français", "Nederlands", "中文 (简体)", "中文 (繁體)", "日本語", "Deutsch", "Italiano", "Čeština", "ελληνικά", "Svenska", "български", "Русский", "Portugês" }));
         jComboBox1.setBorder(null);
-        jComboBox1.setOpaque(false);
+        jComboBox1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);
@@ -259,11 +259,11 @@ public class Main extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(31, 31, 31)
+                .addGap(87, 87, 87)
                 .addComponent(jLabelMain)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
-                .addGap(36, 36, 36)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 6, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(JLabelJuegos)
@@ -317,7 +317,7 @@ public class Main extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 1285, Short.MAX_VALUE)
-            .addComponent(jPanelDin, javax.swing.GroupLayout.DEFAULT_SIZE, 1285, Short.MAX_VALUE)
+            .addComponent(jPanelDin, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -438,12 +438,12 @@ public class Main extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabelAutentificacionMouseClicked
 
     private void jLabelMainMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelMainMouseClicked
-        panelForos.setVisible(false);
+       /* panelForos.setVisible(false);
         panelJuegos.setVisible(false);
         panelLogin.setVisible(false);
         panelRegister.setVisible(false);
         panelStreams.setVisible(false);
-        panelMain.setVisible(true);
+        panelMain.setVisible(false);*/
     }//GEN-LAST:event_jLabelMainMouseClicked
 
     private void jLabelMainMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelMainMouseEntered
